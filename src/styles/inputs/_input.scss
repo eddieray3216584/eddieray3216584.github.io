@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+input {
+  border-radius: 10px;
+  min-height: 2rem;
+  padding: 13px 16px;
+  border: 1px solid $color-gray-400;
+  background: $color-gray-100;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &.search {
+    border-radius: 50px;
+  }
+}

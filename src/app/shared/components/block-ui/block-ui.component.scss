@@ -1,0 +1,10 @@
+.blockUI {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100svw;
+  height: 100svh;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}

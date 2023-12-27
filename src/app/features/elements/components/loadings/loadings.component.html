@@ -1,0 +1,11 @@
+<div class="fill">
+  <div class="loadings_search-block">
+    <input class="search" type="text" (change)="search($event)">
+  </div>
+  <div class="loadings_content">
+    <div *ngFor="let item of loadingList" class="loadings_item-container">
+      <h4>name: {{item.name}}</h4>
+      <div [class]="item.class"></div>
+    </div>
+  </div>
+</div>
